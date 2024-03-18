@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+body {
+    background-color: #ececec;
+}
+
+h1, h2 {
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.descripcion, label {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin: 10px 10px 10px 10px;
+}
+
+.contenedor{
+    width: 94%;
+    height: 80%;
+    margin: 3% 3% 3% 3%;
+}
+
+#cajadetexto1, #texto-muestra {
+    float: left;
+    width: 50%; /* Ajusta el ancho según sea necesario */
+}
+
+textarea {
+    width: 577px;
+    height: 50%;
+}
+
+#boton-encriptador,
+#boton-desencriptar,
+#boton-copiar {
+    position: flex;
+    width: 181px;
+    height: 37px;
+    background: #21235b;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    color: #ececec;
+}
+
+footer {
+    clear: both;
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Ajusta según la altura deseada del footer */
+    text-align: center; /* Opcional: centrar el contenido del footer */
+    line-height: 50px; /* Opcional: centrar verticalmente el contenido del footer */
+    };

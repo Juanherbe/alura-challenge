@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./javascript/script.js"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Alura Challenge</h1>
+      <h2>Encriptador</h2>
+    </header>
+
+    <main>
+      <div class="contenedor">
+        <div class="descripcion">
+          <p>Ingrese texto</p>
+        </div>
+          <div id="cajadetexto1">
+            <label for="input-texto">Ingrese el texto aqui</label> <br>
+            <textarea
+              name="texto"
+              id="texto-encriptable"
+              minlength="0"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <br />
+            <input type="button" id="boton-encriptador" value="Encriptar" />
+            <br />
+            <input type="button" id="boton-desencriptar" value="Desencriptar" />
+          </div>
+        <div id="texto-muestra">
+          <label for="input-texto">Texto encriptado / desencriptado</label> <br>
+          <textarea
+            name="encriptado-texto"
+            id="texto-encriptado"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <br />
+          <input
+            type="button"
+            value="Copiar texto"
+            id="boton-copiar"
+            class="btn btn-primary btn-sm"
+          />
+        </div>
+        <form></form>
+      </div>
+    </main> <br>
+    <footer>
+      <p>Juan Sebastian Herrera Beltran</p>
+    </footer>
+  </body>
+</html>
